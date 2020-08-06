@@ -5,10 +5,16 @@
 
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #798370;
 }
+.table {
+    color: #ffffff;
+    background-color: #777c87;
+}
+
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
@@ -39,8 +45,9 @@ body {
 }
 
 .navbar {
-  padding: 5px;
-  margin: 0;
+    background-color: #485563;
+    padding: 5px;
+    margin: 0;
 }
 
 /* This CSS styles the ufo icon in the navbar */
@@ -98,7 +105,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/image1.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
